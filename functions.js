@@ -1,11 +1,12 @@
 module.exports = {
-returnTwo = () => {
+returnTwo: function(){
+    console.log('a function')
     return 2;
 },
-greeting = (name) => {
+greeting: function(name){
     return(`Hello, ${name}`)
 },
-add = (num1, num2) => {
+add: function(num1, num2){
     return num1 + num2;
 }
 }
